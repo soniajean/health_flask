@@ -14,11 +14,11 @@
 
         {% elif u.flag %}
         <li class="list-group-item"><b>{{ u.username }}</b></li>
-        <a class="btn btn-danger" href="{{ url_for('ig.unfollow', user_id=u.id) }}">UNFollow</a>
+        <a class="btn btn-danger" href="{{ url_for('auth.register', user_id=u.id) }}">register</a>
 
         {% else %}
         <li class="list-group-item"><b>{{ u.username }}</b></li>
-        <a class="btn btn-success" href="{{ url_for('ig.follow', user_id=u.id) }}">Follow</a>
+        <a class="btn btn-success" href="{{ url_for('auth.login', user_id=u.id) }}">login</a>
 
         {% endif %}
         {% endfor %}
