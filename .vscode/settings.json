@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "name": "finalcapstone",
+            "connectString": "postgresql://wxaqcetj:08jjuDaawQhTDyZLhbYO8oQNDDZ1fQ8p@isilo.db.elephantsql.com/wxaqcetj"
+        }
+    ]
+}
